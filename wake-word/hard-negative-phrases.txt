@@ -1,0 +1,55 @@
+# Hard-negative phrases for the "Autumn" / "Hey Autumn" wake-word models.
+# Lines starting with # are comments.
+#
+# Format: one phrase per line, grouped by section header lines in [brackets].
+# generate_hard_negatives.py reads the [tier2] and [tier3] sections.
+#
+# Tier 2 = near-miss phrases (phonetic neighbours of the wake phrases).
+# Tier 3 = mention sentences: her name (or the season) spoken ABOUT, not TO.
+
+[tier2]
+autumnal
+August
+awesome
+ottoman
+Adam
+atom
+ought to
+all them
+out of
+bottom
+an autumn
+the autumn
+in autumn
+hey August
+hey Adam
+hey ottoman
+hey autumnal
+hey there
+hey, awesome
+hey Autumn's
+Autumn's
+called Autumn
+Ms. Autumn
+Dr. Autumn
+Aunt Autumn
+
+[tier3]
+Autumn would know the answer to that.
+Did you tell Autumn about dinner?
+Autumn already handled it.
+That's Autumn's voice, not the TV.
+Ask Autumn later, she's busy right now.
+Autumn is in the other room.
+I was just talking to Autumn about that.
+Autumn said the package arrives Thursday.
+You sound like Autumn when you say that.
+Autumn's busy, try the button instead.
+Autumn is my favourite season.
+The autumn leaves are turning early this year.
+It finally feels like autumn out there.
+A crisp autumn evening, with rain moving in by Friday.
+Autumn weather is hard on the garden.
+The autumn equinox was last month.
+She ordered the autumn blend coffee again.
+That song always makes me think of autumn.
